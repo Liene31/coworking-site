@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #282828;
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #282828;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding: 25px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.13rem;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.icon {
+  width: 25px;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+.caption {
+  margin: 0 25px;
+}
