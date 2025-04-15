@@ -16,6 +16,7 @@ ul {
   list-style-type: none;
   padding: 25px;
   align-items: center;
+  margin: 0;
 }
 
 .logo {
@@ -38,6 +39,36 @@ h1 {
   margin: 30px 25px;
 }
 
+.hygge {
+  position: relative;
+}
+
+section img {
+  display: block;
+  width: 100%;
+}
+
 .caption {
-  margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 25px;
+}
+
+.exclusive-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 8px 5px;
+  font-size: 0.8rem;
+}
+
+button {
+  border: none;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 8px 10px;
+  font-weight: 700;
 }
